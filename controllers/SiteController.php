@@ -122,4 +122,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * Displays play page.
+     *
+     * @return string
+     */
+    public function actionPlay()
+    {
+        return $this->render('play');
+    }
 }
